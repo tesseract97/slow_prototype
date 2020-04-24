@@ -11,6 +11,24 @@ The output of the scripts are located in the File Station of the lab's DiskStati
 
 Scripts Include:
 
+- get_databases.sh
+(returns all databases within the container)
 
-When a script takes parameters, it's indicated by "REQUIRES PARAMS" in the title of the script. 
-These scripts include:
+-use_view.sh
+(takes two parameters that specify the selected view and then returns database specified by the view)
+
+
+When a script takes parameters, it's indicated by "REQUIRES PARAMS" in the title of the script and the parameters can be edited by clicking "Edit" and then going to Task Settings. The parameters immediately follow the bash script which ends with .sh
+The image below shows a task that runs a bash script called use_view.sh that takes two parameters. The two given in the image are "show_specs" and "first_specs"
+
+![add_param_visual](https://user-images.githubusercontent.com/47134315/80162426-4dd11b80-85a1-11ea-9901-f07d16b5d11b.png)
+
+
+The scripts that take parameters include:
+
+
+- use_view.sh
+(takes two parameters: 
+design_name is a string specifying the design document eg. "show_specs"
+view_name is a string specifying the view eg "first_specs")
+
