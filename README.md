@@ -81,7 +81,7 @@ database_name is a string specifying the name of the database to be removed eg. 
 (takes two parameters
 temperature is a number expressed as a string eg. "43" 
 pressure is a number expressed as a string eg. "33"
-* *In the future, there'll be another input specifying database because there will be more than one data channel* *
+*In the future, there'll be another input specifying database because there will be more than one data channel*
 
 - remove_data.sh
 (takes one parameter 
@@ -91,7 +91,7 @@ timestamp is a Javascript approved timestamp expressed as a string eg. "2012-04-
 (takes two parameters
 design_doc is a string that names the design_doc
 view_function is a string that defines what fields the field will show
-* *For now, it just links the function to the map field but with greater development of design docs, it can be linked to other fields* *
+*For now, it just links the function to the map field but with greater development of design docs, it can be linked to other fields*
 
 - remove_design_doc.sh
 (takes one parameter
