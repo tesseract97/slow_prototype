@@ -30,8 +30,29 @@ Scripts Include:
 - get_databases.sh
 (returns all databases within the container)
 
+- get_database.sh
+(takes the database name and returns database information)
+
+- create_database.sh
+(takes a database name and creates a database within the container)
+
+- remove_database.sh
+(takes a database name and removes that database within the container)
+
+- insert_data.sh
+(takes timestamp, temperature, and pressure and inserts into the database in use)
+
+- remove_data.sh
+(takes timestamp and removes data point at that timestamp)
+
+- create_design_doc.sh
+(takes two parameters that specify the name of the design doc and a string that gives a view function to create a design doc with specified name and a view called "first_view" that's linked to the inputted function. 
+
+- remove_design_doc.sh
+(takes the \_id of the design_doc and deletes it from the database)
+
 - use_view.sh
-(takes two parameters that specify the selected view and then returns database specified by the view)
+(takes two parameters that specify the selected view and then returns data specified by the view)
 
 **Parameter Use**
 
@@ -44,6 +65,37 @@ The image below shows a task that runs a bash script called use_view.sh that tak
 
 The scripts that take parameters include:
 
+- get_database.sh
+(takes one parameter
+database_name is a string specifying the name of the database eg. "new_data"
+
+- create_database.sh
+(takes one parameter
+database_name is a string specifying the name of the desired database eg. "new_data"
+
+- remove_database.sh
+(takes one parameter
+database_name is a string specifying the name of the database to be removed eg. "new_data"
+
+- insert_data.sh
+(takes two parameters
+temperature is a number expressed as a string eg. "43" 
+pressure is a number expressed as a string eg. "33"
+* *In the future, there'll be another input specifying database because there will be more than one data channel* *
+
+- remove_data.sh
+(takes one parameter 
+timestamp is a Javascript approved timestamp expressed as a string eg. "2012-04-23T18:25:43.511Z")
+
+- create_design_doc.sh
+(takes two parameters
+design_doc is a string that names the design_doc
+view_function is a string that defines what fields the field will show
+* *For now, it just links the function to the map field but with greater development of design docs, it can be linked to other fields* *
+
+- remove_design_doc.sh
+(takes one parameter
+the design document name is a string that specifies the name of the design_doc and deletes it from the database)
 
 - use_view.sh
 (takes two parameters: 
