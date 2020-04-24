@@ -112,8 +112,8 @@ view_name is a string specifying the view eg "first_specs")
 
 **Notes**
 
-- if container ever got deleted and a new one was required, a recommended commands:
-* apt-get install vim (not necessary, but editing scripts in the terminal will be REAL hard without it)
+- if our container ever got deleted and a new one was created, recommended commands:
+* apt-get install vim (not necessary, but editing scripts in the terminal will be awkward without it)
 * apt-get install jq (necessary for the scripts to run correctly, gives us the ability to pipe the json files in a smart way)
 
 
