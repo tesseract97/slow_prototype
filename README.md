@@ -7,7 +7,7 @@ The scripts are run through the Control Panel of the lab's DiskStation, specific
 
 ![hello_world_script_example](https://user-images.githubusercontent.com/47134315/80162195-9e944480-85a0-11ea-8bd3-636a87e673ad.png)
 
-The output of the scripts are located in the File Station of the lab's DiskStation within BvL_Storage/Bvlabs/Users/tessac/scriptoutput.
+The output of the scripts are located in the File Station of the lab's DiskStation within BvL_Storage/Bvlabs/Users/tessac/script_output.
 
 Scripts Include:
 
