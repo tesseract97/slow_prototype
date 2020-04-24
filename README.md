@@ -51,6 +51,9 @@ Scripts Include:
 - remove_design_doc.sh
 (takes the \_id of the design_doc and deletes it from the database)
 
+- get_design_doc.sh
+(takes the \_id of the design doc and prints information about it)
+
 - use_view.sh
 (takes two parameters that specify the selected view and then returns data specified by the view)
 
@@ -96,6 +99,10 @@ view_function is a string that defines what fields the field will show
 - remove_design_doc.sh
 (takes one parameter
 the design document name is a string that specifies the name of the design_doc and deletes it from the database)
+
+- get_design_doc.sh
+(takes one parameter
+the design document name is a string that specifies the name of the design_doc and prints information about it)
 
 - use_view.sh
 (takes two parameters: 
