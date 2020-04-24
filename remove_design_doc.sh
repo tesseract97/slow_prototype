@@ -4,8 +4,6 @@
 #first input
 design_doc=$1
 
-#second input
-view_name=$2
 
 #get _rev number
 #docker executes curl command for container slow_control
