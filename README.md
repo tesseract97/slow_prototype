@@ -14,7 +14,7 @@ Scripts Include:
 - get_databases.sh
 (returns all databases within the container)
 
--use_view.sh
+- use_view.sh
 (takes two parameters that specify the selected view and then returns database specified by the view)
 
 
