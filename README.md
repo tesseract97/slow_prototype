@@ -42,7 +42,7 @@ Scripts Include:
 - insert_data.sh
 (takes timestamp, temperature, and pressure and inserts into the database in use)
 
-- remove_data.sh
+- remove_datapoint.sh
 (takes timestamp and removes data point at that timestamp)
 
 - create_design_doc.sh
@@ -86,7 +86,7 @@ temperature is a number expressed as a string eg. "43"
 pressure is a number expressed as a string eg. "33"
 *In the future, there'll be another input specifying database because there will be more than one data channel*
 
-- remove_data.sh
+- remove_datapoint.sh
 (takes one parameter 
 timestamp is a Javascript approved timestamp expressed as a string eg. "2012-04-23T18:25:43.511Z")
 
